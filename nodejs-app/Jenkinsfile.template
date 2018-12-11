@@ -1,4 +1,4 @@
-library 'cd-accel@completed'
+library 'cd-accel'
 def testPodYaml = libraryResource 'podtemplates/nodejs-app/web-test-pod.yml'
 def loadTestPodYaml = libraryResource 'podtemplates/nodejs-app/load-test-pod.yml'
 
