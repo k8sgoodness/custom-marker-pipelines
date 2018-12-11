@@ -22,7 +22,7 @@ pipeline {
             }
           }
           stages {
-            stage('Nodejs Setup1') {
+            stage('Nodejs Setup') {
               steps {
                 checkout scm
                 defineProps('.nodejs-app', [npmPackages: 'express pug'])            
@@ -59,7 +59,7 @@ pipeline {
             }
           }
           stages {
-            stage('Nodejs Setup2') {
+            stage('Nodejs Setup') {
               steps {
                 checkout scm
                 defineProps('.nodejs-app', [npmPackages: 'express pug'])            
